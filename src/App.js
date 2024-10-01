@@ -5,25 +5,24 @@ import Header from "./components/Header";
 import Feed from "./components/Feed";
 import SearchResult from "./components/SearchResult";
 import VideoDetails from "./components/VideoDetails";
-import { AppContext } from "./context/contextApi";
+import { AppContextProvider } from "./context/contextApi"; // Assuming you're using a provider
 
 const App = () => {
     return (
-        <AppContext>
+        <AppContextProvider>
             <BrowserRouter>
                 <div className="flex flex-col h-full">
                     <Header />
+                    {/* <VideoDetails /> */}
+                    <Feed />
                     <Routes>
-                        <Route path="/" exact element={<Feed />} />
-                        <Route
-                            path="/searchResult/:searchQuery"
-                            element={<SearchResult />}
-                        />
+                        <Route path="/" element={<Feed />} />
+                        <Route path="/searchResult/:searchQuery" element={<SearchResult />} />
                         <Route path="/video/:id" element={<VideoDetails />} />
                     </Routes>
                 </div>
             </BrowserRouter>
-        </AppContext>
+        </AppContextProvider>
     );
 };
 
