@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/yt-clone/static/css/main.245b8d82.css",
-    "main.js": "/yt-clone/static/js/main.14fd42f0.js",
-    "reactPlayerPreview.js": "/yt-clone/static/js/reactPlayerPreview.d2fe252c.chunk.js",
+    "main.css": "/yt-clone/static/css/main.1031ed27.css",
+    "main.js": "/yt-clone/static/js/main.0dfcb2f9.js",
+    "reactPlayerPreview.js": "/yt-clone/static/js/reactPlayerPreview.8e6dae25.chunk.js",
     "static/media/yt-logo.png": "/yt-clone/static/media/yt-logo.d6505fbc930734374cea.png",
     "index.html": "/yt-clone/index.html",
-    "main.245b8d82.css.map": "/yt-clone/static/css/main.245b8d82.css.map",
-    "main.14fd42f0.js.map": "/yt-clone/static/js/main.14fd42f0.js.map",
-    "reactPlayerPreview.d2fe252c.chunk.js.map": "/yt-clone/static/js/reactPlayerPreview.d2fe252c.chunk.js.map"
+    "main.1031ed27.css.map": "/yt-clone/static/css/main.1031ed27.css.map",
+    "main.0dfcb2f9.js.map": "/yt-clone/static/js/main.0dfcb2f9.js.map",
+    "reactPlayerPreview.8e6dae25.chunk.js.map": "/yt-clone/static/js/reactPlayerPreview.8e6dae25.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.245b8d82.css",
-    "static/js/main.14fd42f0.js"
+    "static/css/main.1031ed27.css",
+    "static/js/main.0dfcb2f9.js"
   ]
 }
