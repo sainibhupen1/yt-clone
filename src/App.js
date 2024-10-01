@@ -5,7 +5,7 @@ import Header from "./components/Header";
 import Feed from "./components/Feed";
 import SearchResult from "./components/SearchResult";
 import VideoDetails from "./components/VideoDetails";
-import { AppContextProvider } from "./context/contextApi"; // Assuming you're using a provider
+import { AppContextProvider } from "./context/contextApi";
 
 const App = () => {
     return (
@@ -13,7 +13,6 @@ const App = () => {
             <BrowserRouter>
                 <div className="flex flex-col h-full">
                     <Header />
-                    {/* <VideoDetails /> */}
                     <Feed />
                     <Routes>
                         <Route path="/" element={<Feed />} />
